@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hello, world!</title>
+	<link rel="stylesheet" href="libs/bootstrap-4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-alteracao.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" type="text/css" href="css/menu-superior.css">
+	<link rel="stylesheet" type="text/css" href="css/rodape.css">
+	<link rel="stylesheet" type="text/css" href="css/carrinho.css">
+</head>
+<body>
+<header>
+	<div class="container-fluid">
+		<div class="row box-destaque">
+			<div class="col text-center">
+				<marquee slide direction="right"><strong>Promoção (50% de desconto para quem é assinante)</strong></marquee>
+			</div>			
+		</div>
+		<div class="row header">
+			<div class="col-sm-3 col-4 ">
+				<img src="img/logo_horizontal.png" class="d-none d-sm-block" height="60px">
+				<img src="img/logo_vertical.png" height="60px" class="d-sm-none">
+			</div>
+			<div class="col-sm-6 col-12 order-sm-0 order-first">
+				<form class="row campo-pesquisar">					
+					<input class="form-control col-10 col-sm-11" type="text" name="pesquisar" placeholder="Pesquisar no site" />										
+			      	<button class="btn btn-light btn-block col-2 col-sm-1" type="submit"><span class="fa fa-search"></span></button>					
+			    </form>				
+			</div>
+			
+			<div class="col-sm-3 col-8">				
+				<div class="row">
+					<div class="col col-8 espacamento-icone">
+						<div class="dropdown">
+						  <button class="btn btn-light" type="button"  id="user-informacoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <span class="icone span-icone fa fa-user"></span><span class="span-ola badge text-left">Olá, Jéssica</span>
+						    <span class="fa fa-angle-double-down span-icone "></span>
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="user-informacoes">
+						    <a href="#" class="dropdown-item">Meus Dados</a>
+						    <a href="#" class="dropdown-item">Pedidos</a>
+						    <div class="dropdown-divider"></div>
+						    <a href="#" class="dropdown-item">Sair</a>
+						  </div>
+						</div>
+						
+					</div>
+					<div class="col col-4 espacamento-icone">
+						<div class="dropdown">
+						  <button class="btn btn-light" type="button">
+							<span class="icone span-icone fa fa-shopping-cart"></span><span class="span-ola badge text-left">20</span>
+						</button>
+					</div>
+				</div>
+				
+			</div>	
+		</div>
+	</div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-purple">
+	<!--a class="navbar-brand" href="#">Navbar</a-->
+	<button class="navbar-toggler" type="button" onclick="addCarrinho();"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse navbar-central" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Categoria
+				</a>
+				<div class="dropdown-menu dropdown-menu-fixed text-left" aria-labelledby="navbarDropdown">
+					<div class="row">
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Categoria
+				</a>
+				<div class="dropdown-menu dropdown-menu-fixed text-left" aria-labelledby="navbarDropdown">
+					<div class="row">
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria222</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+						<div class="col-12 col-sm-3">							
+							<a class="dropdown-item" href="#">SubCategoria</a>
+							<a class="dropdown-item" href="#">SubCategoria</a>								
+							<a class="dropdown-item" href="#">SubCategoria</a>							
+						</div>
+					</div>
+				</div>
+			</li>	
+		</ul>
+	</div>
+</nav>
+<div class="container-fluid">	
+	<div class="row fundo">
+		<div class="container">
+			<div class="row espacamento-primary">
+				<div class="col">
+					<h1 class="text-uppercase text-center">
+						Minha Sacola
+					</h1>
+				</div>				
+			</div>			
+			<div class="row linha linha-principal">
+				<div class="col-5">
+					Descrição
+				</div>
+				<div class="col-2">
+					Preço
+				</div>
+				<div class="col-2">
+					Qtd
+				</div>
+				<div class="col-2">
+					Subtotal
+				</div>
+				<div class="col-1">
+					&nbsp;
+				</div>
+			</div>
+			<div class="row linha align-items-center">
+				<div class="col-1">
+					<img src="http://imagens.baixarquadrinhos.com/2016/08/Ler-Online-Quadrinho-Batman-05-Universo-DC-Renasce-Tom-King-ou-Baixar-em-Cbr-ou-Pdf.jpg" height="60px">
+				</div>
+				<div class="col-4">
+					Batman - Universo DC Renascimento - 05
+				</div>
+				<div class="col-2">
+					<h5>R$ 15,00</h5>
+				</div>
+				<div class="col-2">
+					<input type="number" name="qtd" class="form-control">
+				</div>
+				<div class="col-2">
+					<h5>R$ 30,00</h5>
+				</div>
+				<div class="col-1">
+					<h5><a href="#"><span class="fa fa-close"></span></a></h5>
+				</div>
+			</div>
+			<div class="row linha align-items-center">
+				<div class="col-1">
+					<img src="http://imagens.baixarquadrinhos.com/2016/08/Ler-Online-Quadrinho-Batman-05-Universo-DC-Renasce-Tom-King-ou-Baixar-em-Cbr-ou-Pdf.jpg" height="60px">
+				</div>
+				<div class="col-4">
+					Batman - Universo DC Renascimento - 05
+				</div>
+				<div class="col-2">
+					<h5>R$ 15,00</h5>
+				</div>
+				<div class="col-2">
+					<input type="number" name="qtd" class="form-control">
+				</div>
+				<div class="col-2">
+					<h5>R$ 30,00</h5>
+				</div>
+				<div class="col-1">
+					<h5><a href="#"><span class="fa fa-close"></span></a></h5>
+				</div>
+			</div>
+			<div class="row espacamento-primary"> 
+
+				<div class="col-5"> 
+					<div class="row">	
+						<p class="mb-0 col-12">Cálculo de Frete</p><br/>				
+						<input class="form-control col col-sm-8" type="text" name="cep" placeholder="CEP"/>
+						<button class="btn btn-light col  col-sm-4" type="submit"><span class="fa fa-search"></span></button>
+    				</div>		
+    				<br/>
+    				<div class="row">	
+						<p class="mb-0 col-12">Cupom de Desconto</p>				
+						<input class="form-control col col-sm-8" type="text" name="cupom" placeholder="CUPOM">
+						<button class="btn btn-light col col-sm-4" type="submit">Aplicar</button>
+    				</div>				
+				</div>
+				<div class="col-7">
+					<div class="row"> 
+						<div class="col"> 
+							<p>SubTotal</p>
+						</div>
+						<div class="col text-right"> 
+							<p>R$ 60,00</p>
+						</div>
+					</div>
+					<div class="row"> 
+						<div class="col"> 
+							<p>Frete</p>
+						</div>
+						<div class="col text-right"> 
+							<p>R$ 20,00</p>
+						</div>
+					</div>
+					<div class="row"> 
+						<div class="col"> 
+							<p>Desconto</p>
+						</div>
+						<div class="col text-right"> 
+							<p>R$ 00,00</p>
+						</div>
+					</div>
+					<div class="row"> 
+						<div class="col"> 
+							<h4>Total</h4>
+						</div>
+						<div class="col text-right"> 
+							<h4>R$ 80,00</h4>
+						</div>
+					</div>
+					
+				</div>
+			</div>						
+		</div>
+	</div>
+</div>
+<footer class="bg-purple footer">
+	<div class="container">
+		<div class="row text-left">
+			<div class="col">
+				<h5 class="title-list-page">Geek Space</h5>
+				<ul class="list-page">					
+					<li><a href="#">Cadastrar-se</a></li>
+					<li><a href="#">Login</a></li>
+
+					<li><a href="#">Meus dados</a></li>
+					<li><a href="#">Pedidos</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h5 class="title-list-page">Dúvidas</h5>
+				<ul class="list-page">					
+					<li><a href="#">Como comprar?</a></li>
+					<li><a href="#">Prazo de Entrega</a></li>
+					<li><a href="#">Termos e Condições</a></li>
+					<li><a href="#">Combos Mensais</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h5 class="title-list-page">Combos</h5>
+				<ul class="list-page">					
+					<li><a href="#">Easy</a></li>
+					<li><a href="#">Medium</a></li>
+					<li><a href="#">Hard</a></li>					
+				</ul>
+			</div>
+			<div class="col redes-sociais">
+				<h5 class="title-list-page">Redes Sociais</h5>
+				<a href="#"><span class="fa fa-facebook"></span></a>
+				<a href="#"><span class="fa fa-instagram"></span></a>
+				<a href="#"><span class="fa fa-youtube-play"></span></a>
+			</div>
+		</div>
+</footer>
+<footer class="bg-yellow copy">
+	<div class="container">
+		<div class="row list-page">
+			<div class="col-12 text-center">
+				&copy; Jéssica Medeiros Poçarli. 2018.
+			</div>
+		</div>
+	</div>
+</footer>
+	
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper-1.12.9.min.js"></script>
+<script src="libs/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

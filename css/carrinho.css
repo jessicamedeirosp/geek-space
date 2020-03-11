@@ -1,0 +1,10 @@
+.linha{
+	padding: 5px 0;
+	border-bottom: 1px solid #ffc107;
+	margin: 5px -15px;
+} 
+.linha-principal{
+	text-transform: uppercase;
+	color: #673AB7;
+    font-weight: 500;
+}

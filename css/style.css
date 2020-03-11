@@ -1,0 +1,19 @@
+/* css site todo */
+.espacamento-primary{
+	padding: 30px 15px;
+}
+.fundo{
+	background-image: url('../img/fundo.jpg');
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    /* background-color: transparent; */
+   
+}
+.fundo>div{
+	background-color: #fff;
+	padding: 30px 15px;
+}
+a, a:hover{
+	color: purple;
+}

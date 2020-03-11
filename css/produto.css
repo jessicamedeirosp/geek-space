@@ -1,0 +1,18 @@
+/* css produtos */
+.produto-img{
+	height: 279px;
+	margin-bottom: 5px;
+}
+.produto-dados{
+	min-height: 130px;
+}
+.produto-box{
+	margin-bottom: 15px;
+	text-align: center
+}
+.espacamento-primary>div>img{
+	margin-bottom: 15px;
+}
+.produto-box p a{
+	color:#212529
+}

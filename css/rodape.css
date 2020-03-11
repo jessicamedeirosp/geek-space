@@ -1,0 +1,35 @@
+/* footer */
+footer{
+	
+	padding: 25px 15px;			
+	text-align: center;
+	color: #fff
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+.bg-yellow{
+	background-color: #ffc107;
+}
+.copy{
+	    color: purple;
+	font-weight: 500;
+}
+.list-page{
+	list-style: none;
+	padding: 0;
+}
+.list-page li a,.list-page li a:hover,footer a,footer a:hover{
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal
+}
+
+.redes-sociais a{
+	font-size: 25px;
+}
+.title-list-page{
+	    
+	color: #ffc107;
+}

@@ -1,0 +1,35 @@
+/* css menu superior */
+.box-destaque{
+	padding: 10px 15px;
+	background-color: rgb(255, 255, 0);
+}
+.header{
+	padding: 10px 15px;
+	background-color: #fff;
+	color: #000;
+}		
+.bg-purple{
+	background-color: purple;
+}
+.bg-purple ul li a{
+	color: #fff
+}
+.campo-pesquisar{
+	margin: 11px 0;
+}
+.icone{
+    float: left;
+    margin-right: 5px;
+}
+
+.span-ola, .span-icone{
+	margin-top: 5px;
+}
+.espacamento-icone{
+	margin: 10.5px 0;
+}
+@media(min-width:768px){
+	.header{
+		padding: 25px 15px;
+	}
+}
